@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hyejin</title>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="css/hyejin.css"  rel="stylesheet" type="text/css"/>
+<link href="css/hcalender.css"  rel="stylesheet"  />
+ <link rel="stylesheet" href="css/style.css">
+ 
+ 
+ <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="assets/js/simplecalendar.js" type="text/javascript"></script>
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+.text-center, .team-back{
+font-family: 'Black Han Sans', serif;
+}
+
+#personal, #hobby, #mypet{
+	
+	text-align : center;
+		
+}
+
+
+</style>
+</head>
+<body>
+
+
+    <h1 class="text-center">Hye jin</h1>
+
+	
+	<div class="container">
+	<div class="row">
+	
+	<!--team-1-->
+	<div class="col-lg-6">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="images/h2.jpg" class="img-fluid" />
+	<h3>Personal</h3>
+
+	</div>
+	
+	<div class="team-back">
+	<span id="personal">
+	이름: 조혜진<br>
+	나이: 25<br>
+	생년월일 : 1998.08.10<br>
+	사는 곳: 군포시<br>
+
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-1-->
+	
+	<!--team-2-->
+	<div class="col-lg-6">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="images/h5.jpg"" class="img-fluid" />
+   <h3>Study</h3>
+   
+   </div>
+   
+   <div class="team-back">
+   <span>
+   개발가능 언어
+    <ul>
+       <li>Java</li>
+       <li>sql</li>
+       <li>java script</li>
+       <li>html</li>
+       <li>css</li>
+    </ul>
+   </span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-2-->
+	
+	<!--team-3-->
+	<div class="col-lg-6">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="images/h1.jpg"" class="img-fluid" />
+	<h3>My Pet</h3>
+	
+	</div>
+	
+	<div class="team-back">
+	<span id="mypet">
+	이름: 토빵이<br>
+	나이: 10<br>
+	성별: 남<br>
+	종 : 스피츠<br>
+	생년월일 : 2012.11.21<br>
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-3-->
+	
+	<!--team-4-->
+	<div class="col-lg-6">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="images/h3.jpg" class="img-fluid" />
+	<h3>My Favortie Food</h3>
+
+	</div>
+	
+	<div class="team-back">
+	<span>
+	 <ul>
+	 	<li>피자</li>
+	 	<li>햄버거</li>
+	 </ul>
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-4-->
+	
+	<!--team-5-->
+	<div class="col-lg-6">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="images/h4.jpg" class="img-fluid" />
+	<h3>Hobby</h3>
+	
+	</div>
+	
+	<div class="team-back">
+	<h3>Hobby</h3>
+   <!-- <p>Web Designer</p> -->
+   </div>
+   
+   <div class="team-back">
+   <span id="hobby">
+   
+   취미: 여행 , 유트브 보기 , 새로운거 하기<br>
+   
+   </span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-5-->
+	
+	<!--team-6-->
+	<div class="col-lg-6">
+	<div class="our-team-main">
+	
+	<div class="team-front">
+	<img src="images/h6.jpg" class="img-fluid" />
+	<h3>Thank you</h3>
+
+	</div>
+	
+	<div class="team-back">
+	<span>
+	Thank you!
+	</span>
+	</div>
+	
+	</div>
+	</div>
+	<!--team-6-->
+	
+	 <div id="clockdate" class="col-lg-6">
+  <div class="clockdate-wrapper">
+    <div id="clock"></div>
+    <div id="date"></div>
+  </div>
+</div>
+		<div class="sec_cal">
+  <div class="cal_nav">
+    <a href="javascript:;" class="nav-btn go-prev">prev</a>
+    <div class="year-month"></div>
+    <a href="javascript:;" class="nav-btn go-next">next</a>
+  </div>
+  <div class="cal_wrap">
+    <div class="days">
+      <div class="day">MON</div>
+      <div class="day">TUE</div>
+      <div class="day">WED</div>
+      <div class="day">THU</div>
+      <div class="day">FRI</div>
+      <div class="day">SAT</div>
+      <div class="day">SUN</div>
+    </div>
+    <div class="dates"></div>
+  </div>
+</div>
+	</div>
+	</div>
+</body>
+<script src="js/hscript.js"></script>
+<script src="js/hcalendar.js"></script>
+</html>
